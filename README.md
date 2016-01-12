@@ -1,0 +1,2 @@
+# training
+Praticando GO
