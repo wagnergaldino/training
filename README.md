@@ -1,2 +1,4 @@
 # training
-Praticando GO
+Practicing GO - Apps:
+- URL Shortener
+- DNE (National Address Directory)
