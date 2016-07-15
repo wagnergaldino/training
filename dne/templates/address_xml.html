@@ -1,0 +1,26 @@
+<html>
+	<head><title>DNE RESULT</title></head>
+	<body>
+		<h1>Hi, {{.Usuario}} &nbsp;&nbsp; <a href="/home">new search</a> &nbsp;&nbsp; <a href="/logout">logout</a></h1>
+		<h2>
+			{{.Message}} {{.Cep}}
+		</h2>
+		<div id="result">
+<pre>
+<?xml version="1.0" encoding="UTF-8"?>
+&lt;address&gt;
+  &lt;cep&gt;{{.Cep}}&lt;/cep&gt;
+  &lt;logradouro&gt;{{.Logradouro}}&lt;/logradouro&gt;
+  &lt;bairro&gt;{{.Bairro}}&lt;/bairro&gt;
+  &lt;complemento&gt;{{.Complemento}}&lt;/complemento&gt;
+  &lt;nome&gt;{{.Nome}}&lt;/nome&gt;
+  &lt;localidade&gt;{{.Localidade}}&lt;/localidade&gt;
+  &lt;uf&gt;{{.Uf}}&lt;/uf&gt;
+  &lt;restricao&gt;{{.Restricao}}&lt;/restricao&gt;
+  &lt;latitude&gt;{{.Latitude}}&lt;/latitude&gt;
+  &lt;longitude&gt;{{.Longitude}}&lt;/longitude&gt;
+&lt;/address&gt;
+</pre>      
+		</div>
+	</body>
+</html>
