@@ -1,0 +1,37 @@
+<html>
+	<head><title>DNE HOME</title></head>
+	<body>
+		<h1>Hi, {{.Usuario}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="/logout">logout</a></h1>
+		<p align="justify">
+			Type the Postal Code in the proper field and choose the response type to get the enriched base address info.
+		</p>
+
+		<div id="home">
+			
+			<h2>{{ .Message }}</h2>
+	
+	    <form action="/address" method="POST">
+	
+	        <fieldset>
+	
+	            <p><label for="cep">Postal Code</label></p>
+	            <p><input type="text" name="cep" id="cep" value="03063030"></p>
+	
+	            <p><label for="response">Response Type</label></p>
+	            <p>
+	            	<input type="radio" name="response_type" id="response_type" value="html" checked> html
+	            	&nbsp;&nbsp;&nbsp;
+	            	<input type="radio" name="response_type" id="response_type" value="xml"> xml
+	            	&nbsp;&nbsp;&nbsp;
+	            	<input type="radio" name="response_type" id="response_type" value="json"> json
+	            </p>
+	
+	            <p><input type="submit" value="Search"></p>
+	
+	        </fieldset>
+	
+	    </form>
+	
+		</div>
+	</body>
+</html>
