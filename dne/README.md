@@ -15,7 +15,7 @@ address table with that info.
 Finally, the address table is made available for searching by registered users. The user, after signing in, just have to fill a 
 form, typing the postal code number and choosing the response format between html, xml or json.
 
-Just edit the files wagnergaldino/training/dne/database/database.go and wagnergaldino/training/dne/orm/orm.go to update the database connection info. There's a mysql database dump available at wagnergaldino/training/dne/database folder. 
+Just edit the files wagnergaldino/training/dne/database/database.go and wagnergaldino/training/dne/orm/orm.go to update the database connection info. There's a mysql database structure dump available at wagnergaldino/training/dne/database folder. 
 
 The app runs on port 8081 and user/pass = wagal/wagal
 
